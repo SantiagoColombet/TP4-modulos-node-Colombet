@@ -1,6 +1,6 @@
 // 1
 import concatenar from './modules/concatenar.js';
-console.log(concatenar("a", "b"))
+concatenar("a", "b")
 
 // 2
 import matematica from './modules/matematica.js'; 

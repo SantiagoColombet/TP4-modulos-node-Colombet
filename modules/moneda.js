@@ -1,8 +1,8 @@
 import countryToCurrency from 'country-to-currency';
 
-function moneda()
+function moneda(pais)
 {
-    return countryToCurrency['AR'];
+    return countryToCurrency[pais];
 }
 
 export default moneda

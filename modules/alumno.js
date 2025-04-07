@@ -1,7 +1,9 @@
+
 class Alumno{
     constructor(pUsername, pDNI)
     {
-        return {username: pUsername, DNI: pDNI}
+        this.username = pUsername
+        this.DNI = pDNI
     }
 }
 export default Alumno
