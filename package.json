@@ -9,5 +9,8 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "santiago colombet",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "country-to-currency": "^2.0.2"
+  }
 }

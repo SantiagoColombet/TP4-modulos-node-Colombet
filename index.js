@@ -20,4 +20,16 @@ console.log(alumno1);
 console.log(alumno2); 
 
 // 4
+// import archivo from './modules/archivo.js'
+// archivo("./prueba.txt", "./hola.txt")
 
+//5
+import url from './modules/url.js'
+let objeto = url("http://www.ort.edu.ar:8080/alumnos/index.htm?curso=2022&mes=mayo");
+console.log(objeto);
+
+// 7
+import moneda from './modules/moneda.js'
+
+let monedaAux = moneda("AR");
+console.log(monedaAux)
